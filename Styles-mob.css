@@ -1,0 +1,104 @@
+/*Maak hier jouw CSS!*/
+
+body {
+    background-color: pink;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 16px;
+    grid-template-areas:
+    "a a a a a a a a"
+    "a a a a a a a a"
+    "b b b b b b b b"
+    "b b b b b b b b"
+    "b b b b b b b b"
+    "b b b b b b b b"
+    "c c c c c c c c"
+    "c c c c c c c c"
+    "d d d d d d d d"
+    "d d d d d d d d"
+    "e e e e e e e e"
+    "e e e e e e e e"
+    "x x x x x x x x"
+    "x x x x x x x x"
+    "f f f f f f f f"
+    "f f f f f f f f";
+    align-items: start;
+}
+.itemA {
+    grid-area: a;
+    background-color: red;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.itemB {
+    grid-area: b;
+    background-color: red;
+    border-color: black;
+    border: 5px;
+    border-style: solid;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.itemC {
+    grid-area: c;
+    background-color: red;
+    border-color: black;
+    border: 5px;
+    border-style: solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.itemD {
+    grid-area: d;
+    background-color: red;
+    border-color: black;
+    border: 5px;
+    border-style: solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.itemE {
+    grid-area: e;
+    background-color: red;
+    border-color: black;
+    border: 5px;
+    border-style: solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.itemF {
+    grid-area: f;
+    background-color: red;
+    border-color: black;
+    border: 5px;
+    border-style: solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
